@@ -1,0 +1,22 @@
+# Dependencies and caches
+node_modules
+**/node_modules
+
+# VCS
+.git
+.gitignore
+
+# Builds (exclude local dist; it will be rebuilt in image)
+dist
+**/dist
+**/build
+
+# IDE/editor
+.vscode
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+supabase
